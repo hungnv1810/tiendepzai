@@ -1,0 +1,27 @@
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Almarai', sans-serif;
+}
+.menu > li{
+    position: relative;
+}
+.menu > li:hover ul{
+display: block;
+}
+
+.menu ul{
+    display: none;
+    position: absolute;
+    top: 20px;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    background-color: yellow;
+}
